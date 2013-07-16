@@ -6,6 +6,7 @@ modules = { "local": [
                 "modules/rffe_top",
                 "modules/ethmac",
                 "modules/fabric",
+                "modules/udp-ip",
                 "ip_cores/general-cores",
                 "ip_cores/etherbone-core",
 				"ip_cores/dsp-cores",
