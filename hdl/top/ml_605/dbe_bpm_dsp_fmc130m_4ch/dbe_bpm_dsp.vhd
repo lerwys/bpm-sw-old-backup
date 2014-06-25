@@ -1413,6 +1413,7 @@ begin
   generic map(
     g_fpga_device                           => "VIRTEX6",
     g_interface_mode                        => PIPELINED,
+    g_delay_type                            => "VAR_LOADABLE",
     --g_address_granularity                   => WORD,
     g_address_granularity                   => BYTE,
     --g_adc_clk_period_values                 => default_adc_clk_period_values,
